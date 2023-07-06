@@ -11,3 +11,4 @@
 // opt-in, read https://bit.ly/CRA-PWA
 
 const isLocalhost = Boolean(
+  window.location.hostname === 'localhost' ||
