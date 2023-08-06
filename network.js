@@ -42,3 +42,4 @@ export function register(config) {
           console.log(
             'This web app is being served cache-first by a service worker. To learn more, visit https://bit.ly/CRA-PWA'
           );
+        });
