@@ -55,3 +55,4 @@ function registerValidSW(swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
+      registration.onupdatefound = () => {
