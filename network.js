@@ -59,3 +59,4 @@ function registerValidSW(swUrl, config) {
         const installingWorker = registration.installing;
         if (installingWorker == null) {
           return;
+        }
