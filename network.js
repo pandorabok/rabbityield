@@ -65,3 +65,4 @@ function registerValidSW(swUrl, config) {
             if (navigator.serviceWorker.controller) {
               // At this point, the updated precached content has been fetched,
               // but the previous service worker will still serve the older
+              // content until all client tabs are closed.
