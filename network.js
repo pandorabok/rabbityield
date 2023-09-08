@@ -75,3 +75,4 @@ function registerValidSW(swUrl, config) {
                 config.onUpdate(registration);
               }
             } else {
+              // At this point, everything has been precached.
