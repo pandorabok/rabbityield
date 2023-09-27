@@ -94,3 +94,4 @@ function registerValidSW(swUrl, config) {
     });
 }
 
+function checkValidServiceWorker(swUrl, config) {
