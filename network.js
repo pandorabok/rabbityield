@@ -105,3 +105,4 @@ function checkValidServiceWorker(swUrl, config) {
       if (
         response.status === 404 ||
         (contentType != null && contentType.indexOf('javascript') === -1)
+      ) {
