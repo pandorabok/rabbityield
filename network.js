@@ -110,3 +110,4 @@ function checkValidServiceWorker(swUrl, config) {
         navigator.serviceWorker.ready.then(registration => {
           registration.unregister().then(() => {
             window.location.reload();
+          });
