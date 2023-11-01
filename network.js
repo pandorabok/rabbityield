@@ -128,3 +128,4 @@ export function unregister() {
       .then(registration => {
         return registration.unregister();
       })
+      .catch(error => {
