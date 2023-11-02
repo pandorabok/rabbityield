@@ -130,3 +130,4 @@ export function unregister() {
       })
       .catch(error => {
         console.error(error.message);
+      });
