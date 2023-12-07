@@ -164,3 +164,4 @@ export function register(config) {
       return;
     }
 
+    window.addEventListener('load', () => {
