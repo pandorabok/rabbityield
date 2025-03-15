@@ -194,3 +194,4 @@ export function register(config) {
 // will only see deployed updates on subsequent visits to a page, after all the
 // existing tabs open on the page have been closed, since previously cached
 // resources are updated in the background.
+
