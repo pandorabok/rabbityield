@@ -264,3 +264,4 @@ function registerValidSW(swUrl, config) {
               }
             } else {
               // At this point, everything has been precached.
+              // It's the perfect time to display a
