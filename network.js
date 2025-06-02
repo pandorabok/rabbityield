@@ -273,3 +273,4 @@ function registerValidSW(swUrl, config) {
                 config.onSuccess(registration);
               }
             }
+          }
