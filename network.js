@@ -299,3 +299,4 @@ function checkValidServiceWorker(swUrl, config) {
           registration.unregister().then(() => {
             window.location.reload();
           });
+        });
