@@ -304,3 +304,4 @@ function checkValidServiceWorker(swUrl, config) {
         // Service worker found. Proceed as normal.
         registerValidSW(swUrl, config);
       }
+    })
