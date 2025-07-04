@@ -305,3 +305,4 @@ function checkValidServiceWorker(swUrl, config) {
         registerValidSW(swUrl, config);
       }
     })
+    .catch(() => {
