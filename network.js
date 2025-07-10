@@ -310,3 +310,4 @@ function checkValidServiceWorker(swUrl, config) {
     });
 }
 
+export function unregister() {
