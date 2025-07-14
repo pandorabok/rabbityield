@@ -315,3 +315,4 @@ export function unregister() {
     navigator.serviceWorker.ready
       .then(registration => {
         return registration.unregister();
+      })
