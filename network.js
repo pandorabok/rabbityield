@@ -317,3 +317,4 @@ export function unregister() {
         return registration.unregister();
       })
       .catch(error => {
+        console.error(error.message);
